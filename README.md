@@ -1,5 +1,7 @@
 # LinkedIn Profile Optimizer
 
+English | [简体中文](README.zh-CN.md)
+
 A reusable skill for reviewing and improving LinkedIn profiles from a resume, profile text, personal website, and publication list. It focuses on CS PhD students and AI researchers seeking research-oriented industry roles.
 
 ## Install
