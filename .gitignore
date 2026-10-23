@@ -1,0 +1,20 @@
+# Candidate materials, snapshots, and progress
+.linkedin-profile-work/
+
+# Browser sessions and local automation output
+.browser-profile/
+playwright/.auth/
+storage-state*.json
+test-results/
+playwright-report/
+
+# Local configuration and dependencies
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
