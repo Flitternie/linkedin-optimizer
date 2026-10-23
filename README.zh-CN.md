@@ -1,4 +1,4 @@
-# LinkedIn Profile Optimizer
+# LinkedIn Optimizer
 
 [English](README.md) | 简体中文
 
@@ -11,12 +11,12 @@
 把下面这句话发给你的 agent：
 
 ```text
-请读取 https://github.com/Flitternie/linkedin-profile-optimizer 的 README，将 linkedin-profile-optimizer 安装到你当前使用的工具中，并验证安装成功。
+请读取 https://github.com/Flitternie/linkedin-optimizer 的 README，将 linkedin-optimizer 安装到你当前使用的工具中，并验证安装成功。
 ```
 
 供安装 agent 使用的步骤：
 
-1. 下载仓库，找到 `skills/linkedin-profile-optimizer/`，确认 `SKILL.md` 中的名称为 `linkedin-profile-optimizer`。
+1. 下载仓库，找到 `skills/linkedin-optimizer/`，确认 `SKILL.md` 中的名称为 `linkedin-optimizer`。
 2. 将整个 skill 文件夹复制到下表中对应的个人安装目录。Codex 也可以使用 `$skill-installer`。
 3. 更新时保留本地修改，仅更新本 skill 的文件。
 4. 检查文件和参考链接，并确认工具能识别该 skill；必要时请用户重启。浏览器连接在实际使用时配置。
@@ -25,12 +25,12 @@ Private 仓库需要使用者已登录有访问权限的 GitHub 账号。
 
 ### 手动安装
 
-将 `skills/linkedin-profile-optimizer/` 复制到对应目录：
+将 `skills/linkedin-optimizer/` 复制到对应目录：
 
 | 工具 | 个人安装目录 | 项目安装目录 |
 |---|---|---|
-| Codex | `~/.agents/skills/linkedin-profile-optimizer/` | `.agents/skills/linkedin-profile-optimizer/` |
-| Claude Code | `~/.claude/skills/linkedin-profile-optimizer/` | `.claude/skills/linkedin-profile-optimizer/` |
+| Codex | `~/.agents/skills/linkedin-optimizer/` | `.agents/skills/linkedin-optimizer/` |
+| Claude Code | `~/.claude/skills/linkedin-optimizer/` | `.claude/skills/linkedin-optimizer/` |
 
 保留 `SKILL.md` 和 `references/browser-setup.md`。`agents/openai.yaml` 是可选的 Codex 界面配置，Claude Code 无需使用。安装后如果未显示，开启新会话或重启工具。
 
@@ -41,13 +41,13 @@ Private 仓库需要使用者已登录有访问权限的 GitHub 账号。
 在 Codex 中：
 
 ```text
-请使用 $linkedin-profile-optimizer，根据我的简历优化 LinkedIn，目标是 Research Scientist 岗位。需要时帮我配置浏览器连接，完成资料修改并验证保存结果。
+请使用 $linkedin-optimizer，根据我的简历优化 LinkedIn，目标是 Research Scientist 岗位。需要时帮我配置浏览器连接，完成资料修改并验证保存结果。
 ```
 
 在 Claude Code 中：
 
 ```text
-/linkedin-profile-optimizer 根据我的简历优化 LinkedIn，目标是 Research Scientist 岗位。需要时帮我配置浏览器连接，完成资料修改并验证保存结果。
+/linkedin-optimizer 根据我的简历优化 LinkedIn，目标是 Research Scientist 岗位。需要时帮我配置浏览器连接，完成资料修改并验证保存结果。
 ```
 
 可以提供简历、个人主页、Google Scholar 链接、作品集或直接填写背景信息。简历不是必需项；材料不足时，agent 会主动询问。提供当前 LinkedIn 链接和目标岗位类型，方便针对性调整。
@@ -60,7 +60,7 @@ Private 仓库需要使用者已登录有访问权限的 GitHub 账号。
 - **连接问题：**agent 会主动排查，并在权限允许时配置浏览器集成或必要客户端。可使用浏览器 MCP、Playwright、CDP 或桌面浏览器集成，无需提前配好连接。
 - **只审阅或只写草稿：**明确提出这一要求，agent 会按该范围处理。
 
-agent 会使用当前环境可用的工具建立浏览器连接；你可能需要授予权限、重启工具或完成登录。详见[浏览器说明](skills/linkedin-profile-optimizer/references/browser-setup.md)。
+agent 会使用当前环境可用的工具建立浏览器连接；你可能需要授予权限、重启工具或完成登录。详见[浏览器说明](skills/linkedin-optimizer/references/browser-setup.md)。
 
 需要启动 Chrome 或 Playwright 时，agent 会打开可见的浏览器窗口，让你能看到修改过程，并直接在窗口中登录。登录、修改和验证使用同一个会话。
 
@@ -68,6 +68,6 @@ agent 会使用当前环境可用的工具建立浏览器连接；你可能需�
 
 ## 本地文件与许可证
 
-简历等材料、修改前原文及执行进度保存在用户工作目录的 `.linkedin-profile-work/` 中，与安装的 skill 分开。在本仓库内工作时，`.gitignore` 会忽略该目录及约定的本地浏览器状态文件。
+简历等材料、修改前原文及执行进度保存在用户工作目录的 `.linkedin-optimizer-work/` 中，与安装的 skill 分开。在本仓库内工作时，`.gitignore` 会忽略该目录及约定的本地浏览器状态文件。
 
 本项目采用 [MIT 许可证](LICENSE)。

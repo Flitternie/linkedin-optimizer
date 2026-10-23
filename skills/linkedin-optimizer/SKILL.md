@@ -1,9 +1,9 @@
 ---
-name: linkedin-profile-optimizer
+name: linkedin-optimizer
 description: Audit, rewrite, and—when explicitly authorized—edit LinkedIn profiles for CS PhD students and AI researchers seeking research-oriented industry roles. Use for profile positioning, recruiter readability, publication completeness, browser setup troubleshooting, and browser-assisted LinkedIn updates; do not use for job applications or social outreach.
 ---
 
-# LinkedIn Profile Optimizer
+# LinkedIn Optimizer
 
 Optimize the profile as a recruiter-facing research portfolio. Balance three goals:
 
@@ -208,7 +208,7 @@ If browser access remains blocked after meaningful diagnostics and a supported a
 
 Once connected, inventory existing values, resolve the exact target, change one logical section at a time, disable routine network notifications unless requested, save, and verify the rendered result. Follow the authentication procedure in the browser reference.
 
-Save original values and a short per-section progress record in `.linkedin-profile-work/` under the user's working directory, separate from the installed skill. Track each section as planned, saved, or verified. After an interruption, reread the live section before retrying; use snapshots to support restoration when requested. Record profile content and edit status only, keeping credentials and browser session secrets out of these files.
+Save original values and a short per-section progress record in `.linkedin-optimizer-work/` under the user's working directory, separate from the installed skill. Track each section as planned, saved, or verified. After an interruption, reread the live section before retrying; use snapshots to support restoration when requested. Record profile content and edit status only, keeping credentials and browser session secrets out of these files.
 
 ## Final quality check
 

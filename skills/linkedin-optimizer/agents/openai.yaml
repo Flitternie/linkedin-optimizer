@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Optimizer"
+  short_description: "Optimize technical-research profiles for recruiters"
+  default_prompt: "Use $linkedin-optimizer to improve my LinkedIn profile for research-oriented roles, establish browser access if needed, and apply and verify the authorized edits."
