@@ -16,7 +16,7 @@ Optimize the profile as a recruiter-facing research portfolio. Balance three goa
 - **Default workflow:** collect background, establish browser access, inspect the live profile, prepare changes, apply authorized edits, and verify the saved result in LinkedIn. A request to improve or update the profile authorizes ordinary edits within the requested sections, including help establishing the browser connection.
 - **Explicit audit or draft request:** provide the requested review or replacement text. For an audit of the current profile, use the browser to inspect it when possible.
 
-The default workflow is complete when the requested edits are saved and verified in the live browser. Prepare drafts while collecting information or repairing the connection. If authorization for edits is missing, prepare concrete changes before asking for it. Browser work can run in Codex or Claude Code without the ChatGPT desktop app.
+The default workflow is complete when the requested edits are saved and verified in the live browser. Prepare drafts while collecting information or repairing the connection. If authorization for edits is missing, prepare concrete changes before asking for it.
 
 Keep actions within the requested profile work. Messaging, job applications, public posts, following accounts, and unrelated settings require separate user direction.
 

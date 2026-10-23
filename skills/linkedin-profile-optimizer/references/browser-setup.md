@@ -4,7 +4,7 @@ Use this reference when establishing browser access for the default LinkedIn opt
 
 ## Select the connection path
 
-Establish browser access for the live inspection, editing, and verification described in SKILL.md. Codex CLI and Claude Code can use the connection paths below; the ChatGPT desktop app is optional.
+Establish browser access for the live inspection, editing, and verification described in SKILL.md using a connection path supported by the current host.
 
 Determine which environment and tools are available before asking the user to change settings. Prefer an existing working connection.
 
@@ -20,9 +20,9 @@ If no usable connection exists, actively establish one. Inspect the available ho
 
 Use existing packages where possible. If a browser client or integration is missing, install the needed dependency in an isolated task environment or configure it at the narrowest appropriate scope when host permissions allow. Ask for user action when required by permissions, authentication, or an unavailable local interface.
 
-### Optional ChatGPT desktop app and browser extension
+### Browser extension connection
 
-Use this path when the user is already using, or chooses to use, the ChatGPT desktop app. Consult current official setup guidance:
+When the current host exposes a browser extension integration, follow its setup guidance. For the OpenAI browser extension:
 
 https://developers.openai.com/codex/chrome-extension
 

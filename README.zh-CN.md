@@ -60,7 +60,7 @@ Private 仓库需要使用者已登录有访问权限的 GitHub 账号。
 - **连接问题：**agent 会主动排查，并在权限允许时配置浏览器集成或必要客户端。可使用浏览器 MCP、Playwright、CDP 或桌面浏览器集成，无需提前配好连接。
 - **只审阅或只写草稿：**明确提出这一要求，agent 会按该范围处理。
 
-不需要桌面版 ChatGPT。agent 会使用当前环境可用的工具建立连接；你可能需要授予权限、重启工具或完成登录。详见[浏览器说明](skills/linkedin-profile-optimizer/references/browser-setup.md)。
+agent 会使用当前环境可用的工具建立浏览器连接；你可能需要授予权限、重启工具或完成登录。详见[浏览器说明](skills/linkedin-profile-optimizer/references/browser-setup.md)。
 
 需要启动 Chrome 或 Playwright 时，agent 会打开可见的浏览器窗口，让你能看到修改过程，并直接在窗口中登录。登录、修改和验证使用同一个会话。
 

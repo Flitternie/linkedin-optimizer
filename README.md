@@ -54,7 +54,7 @@ Optionally share target job descriptions or job links. The agent uses them to ta
 - **Connection problems:** the agent actively diagnoses and fixes the setup, including configuring a supported integration or setting up a needed browser client when permitted. You do not need to supply a preconfigured connection. Depending on your environment, the connection may use a browser MCP, Playwright, CDP, or a desktop browser integration.
 - **Explicit review or draft-only requests:** the agent honors this narrower scope and does not apply edits.
 
-The ChatGPT desktop app is optional. Installing the skill supplies instructions; the agent establishes browser access during the task using the tools and permissions available in your environment. You may need to grant permissions, restart the host, or complete authentication. See [browser setup](skills/linkedin-profile-optimizer/references/browser-setup.md).
+The agent establishes browser access using the tools and permissions available in your environment. You may need to grant permissions, restart the host, or complete authentication. See [browser setup](skills/linkedin-profile-optimizer/references/browser-setup.md).
 
 When launching Chrome or Playwright, the agent uses a visible browser window so you can watch the edits and sign in directly. It keeps the same session through verification.
 
