@@ -8,6 +8,8 @@ Establish browser access for the live inspection, editing, and verification desc
 
 Determine which environment and tools are available before asking the user to change settings. Prefer an existing working connection.
 
+For LinkedIn interaction, use a browser window the user can see and operate. Configure Playwright with `headless: false` or the integration's equivalent; launch Chrome with its normal GUI and without `--headless`. If the tool is remote, establish a user-accessible browser or shared desktop before proceeding with login and edits.
+
 ### Existing browser tools in Codex or Claude Code
 
 If the environment provides a browser, computer-use, Playwright, browser MCP, or CDP client, use it first. Confirm access with a read-only action such as retrieving the current URL or page title, then verify that the connection reaches the intended LinkedIn session. A tool may use a separate browser profile from the user's everyday browser.
@@ -32,7 +34,7 @@ Use Chrome DevTools Protocol only as an environment-specific fallback when all o
 
 - no existing browser connection is usable;
 - the task is running locally with permission to launch a separate browser instance;
-- the agent or user can launch that browser on the same machine as the CDP client;
+- the agent or user can launch a visible browser on the same machine as the CDP client;
 - the browser binds remote debugging to loopback only.
 
 This connection works independently of the desktop-extension workflow. Explain that remote debugging grants broad control over the isolated browser profile.
@@ -50,7 +52,7 @@ On macOS, a separate instance can be launched with `open -na "Google Chrome" --a
 
 Launch the isolated instance yourself when local execution permits, then check the debugging endpoint. In a remote environment, loopback addresses the agent's machine. Use a host-supported connection to the user's browser or ask for the necessary local setup step.
 
-Ask the user to sign in inside that isolated window. Never ask them to paste passwords, session cookies, two-factor codes, or authentication tokens into chat. Never copy cookies, local storage, or authorization headers into logs.
+Open LinkedIn in the visible isolated window and let the user complete login there. Keep that window available and reuse its authenticated session for inspection, editing, and verification. Never ask them to paste passwords, session cookies, two-factor codes, or authentication tokens into chat. Never copy cookies, local storage, or authorization headers into logs.
 
 ## Diagnose connection failures
 

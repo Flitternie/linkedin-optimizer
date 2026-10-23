@@ -202,6 +202,8 @@ Read [references/browser-setup.md](references/browser-setup.md) when establishin
 
 Prefer available browser tools and verify access to the intended session. Actively diagnose and repair connection problems using the linked reference, including setup of a needed browser client or integration when permitted. Preserve unrelated settings and ask the user for actions requiring their participation, such as authentication, browser permissions, or a host restart.
 
+Use a visible browser window for LinkedIn so the user can observe edits and sign in directly. When launching Chrome or Playwright, use headed mode and keep the same session for login, editing, and verification.
+
 If browser access remains blocked after meaningful diagnostics and a supported alternative, report the failure, attempted fixes, unfinished edits, and minimum user action needed to resume.
 
 Once connected, inventory existing values, resolve the exact target, change one logical section at a time, disable routine network notifications unless requested, save, and verify the rendered result. Follow the authentication procedure in the browser reference.

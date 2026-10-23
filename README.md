@@ -56,6 +56,8 @@ Optionally share target job descriptions or job links. The agent uses them to ta
 
 The ChatGPT desktop app is optional. Installing the skill supplies instructions; the agent establishes browser access during the task using the tools and permissions available in your environment. You may need to grant permissions, restart the host, or complete authentication. See [browser setup](skills/linkedin-profile-optimizer/references/browser-setup.md).
 
+When launching Chrome or Playwright, the agent uses a visible browser window so you can watch the edits and sign in directly. It keeps the same session through verification.
+
 Enter credentials and complete authentication challenges in the browser yourself. The skill's profile-editing scope does not authorize messages, job applications, or public posts.
 
 ## Local work and license
