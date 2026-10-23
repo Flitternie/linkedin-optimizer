@@ -28,8 +28,6 @@ For the installing agent:
 3. For updates, preserve local modifications and replace only this skill's files.
 4. Verify the files and references exist, then check host discovery; request a restart if needed. Installation is complete when the host recognizes the skill. Browser setup happens when running it.
 
-Private repositories require access through the user's existing GitHub authentication.
-
 ## Use
 
 In Codex:
